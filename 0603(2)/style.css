@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fe9b00;
+}
+
+.container{
+    max-width: 400px;
+    margin: 300x auto;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social ul li{
+    display: inline;
+}
+
+.social ul li a{
+    display: inline-block;
+    position: relative;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 5px;
+    
+}
+
+.social ul li a i{
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#face{
+    color: #3b599c;
+    border-color:#3b599c;
+    border: solid 2px
+}
+
+#twit{
+color: #36ccff;
+border-color:#36ccff;
+border: solid 2px
+}
+
+#goo{
+    color: #df5238;
+    border-color:#df5238;
+    border: solid 2px
+}
+
+#in{
+   color: #0a78b4; 
+   border-color: #0a78b4;
+   border: solid 2px
+}
+#insta{
+    color: #e54d56;
+    border-color: #e54d56;
+    border: solid 2px
+
+}
